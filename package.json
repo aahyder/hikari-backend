@@ -2,11 +2,11 @@
   "name": "hikari-backend-dvlp",
   "version": "1.0.0",
   "description": "hikari express backend server",
-  "main": "./src/bin/www",
+  "main": "./src/app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/bin/www"
+    "start": "node ./src/app.js"
   },
   "repository": {
     "type": "git",
