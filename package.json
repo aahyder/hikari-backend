@@ -1,0 +1,29 @@
+{
+  "name": "hikari-backend-dvlp",
+  "version": "1.0.0",
+  "description": "hikari express backend server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aahyder/hikari-backend.git"
+  },
+  "author": "Andrew Hyder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aahyder/hikari-backend/issues"
+  },
+  "homepage": "https://github.com/aahyder/hikari-backend#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "stripe": "^11.7.0"
+  }
+}
