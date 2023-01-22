@@ -1,10 +1,11 @@
 import express from 'express';
 import Stripe from 'stripe';
+import cors from 'cors';
 
 const indexRouter = express.Router();
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
-indexRouter.post('/create-customer', async (req, res) => {
+indexRouter.post('/create-customer', cors(), async (req, res) => {
   const email = req.query.email;
   
   if(!email) {
